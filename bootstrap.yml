@@ -1,0 +1,5 @@
+spring.cloud.config.enabled: true
+spring.cloud.config.fail-fast: true
+spring.cloud.config.name: brasilseg-asg-api
+profiles: local
+spring.cloud.config.endpoint: http://localhost:8080
